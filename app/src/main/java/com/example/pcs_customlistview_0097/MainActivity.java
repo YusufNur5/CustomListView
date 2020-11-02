@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             movieList.add(mov);
         }
 
-        movieAdapter = new MovieAdapter(this,R.layout.item_row,movieList);
+        movieAdapter = new MovieAdapter(this,R.layout.item_row, movieList);
         lv_movie.setAdapter(movieAdapter);
 
 
